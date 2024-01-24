@@ -1,4 +1,4 @@
-// Using forin Loop
+// Using for Loop
 void main(){
 
 List std = ["affan","anas","ali","adex","hamza"];
