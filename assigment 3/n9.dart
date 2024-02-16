@@ -9,8 +9,10 @@
 //Number is : 5 and cube of the 5 is :125
 //import 'dart:io';
 
+import 'dart:io';
+
 void main() {
-  stdout.write("Input number of terms: ");
+  stdin.write("Input number of terms: ");
   int numberOfTerms = int.parse(stdin.readLineSync()!);
 
   for (int i = 1; i <= numberOfTerms; i++) {
